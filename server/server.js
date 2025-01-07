@@ -12,7 +12,7 @@ cnctDB();
 
 app.use(express.json());
 app.use(cookieParser());
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://mern-auth-7cyt.onrender.com']
 app.use(cors({origin: allowedOrigins, credentials: true}));
 
 
